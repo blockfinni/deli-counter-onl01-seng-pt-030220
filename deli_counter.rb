@@ -1,4 +1,4 @@
-def DeliLine(array) # this was the one I figured out
+def deliLine(array) # this was the one I figured out
   if array.length >= 1
     nuarray = []
     counter = 1 
