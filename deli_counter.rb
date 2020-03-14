@@ -1,16 +1,17 @@
+
 def line(array) # this was the one I figured out
   if array.length >= 1
-    array1 = []
+    nuarray = []
     counter = 1 
     array.each do |name|
-      array1.push("#{counter}. #{customer}")
+      nuarray.push("#{counter}. #{name}")
       counter += 1 
     end 
-    puts "The line is currently: #{array1.join(" ")}"
+    puts "The line is currently: #{nuarray.join(" ")}"
   else
-    puts "The line is empty."
+    puts "The line is currently empty."
   end
-end
+en
 
 
 
