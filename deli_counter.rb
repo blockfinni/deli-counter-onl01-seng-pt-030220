@@ -15,13 +15,21 @@ end
 
 
 
-def line_simple(array)
-  current_line = "The simple line is currently:"
-  
-  array.each.with_index(1) do |value, indexemus|  
-  
-    current_line << " #{indexemus}. #{value},"    
-   
-  end 
-  puts current_line
+def take_a_number(line, customer)
+  line.push(customer) # could say: "line << new_person"
+  puts "Welcome, #{customer}. You are number #{line.length} in line."
+end
+
+
+
+def now_serving(line)
+  if line.length == 0 # could say: "if deli.empty?"
+    puts"There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line[0]}." # could say: "Currently serving #{line.first}."
+    line.shift # this works in the IDE but no on repl.it
+  end
 end 
+
+
+
