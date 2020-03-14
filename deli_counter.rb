@@ -16,7 +16,7 @@ end
 
 
 def take_a_number(line, customer)
-  line.push(customer) # could say: "line << new_person"
+  line.push(customer) 
   puts "Welcome, #{customer}. You are number #{line.length} in line."
 end
 
