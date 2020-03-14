@@ -3,7 +3,7 @@ def line(array) # this was the one I figured out
     nuarray = []
     counter = 1 
     array.each do |name|
-      nuarray.push("#{counter}. #{name}")
+      nuarray.push("#{counter}. #{customer}")
       counter += 1 
     end 
     puts "The line is currently: #{nuarray.join(" ")}"
