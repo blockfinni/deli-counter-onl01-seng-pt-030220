@@ -12,6 +12,8 @@ def line(array) # this was the one I figured out
   end
 end
 
+
+
 def line_simple(array)
   current_line = "The simple line is currently:"
   
